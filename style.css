@@ -16,15 +16,98 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    margin-top: 3rem;
+    margin-left: 3rem;
 }
 
 main {
     background-color: #31363b;
     width: 250px;
-    color: white;
+    color: rgba(211, 211, 211, 0.952);
     box-shadow: 5px 5px 10px 5px#888888;
+    font-family: 'Source Sans Pro', sans-serif;
+    
 }
 
 .obsah {
     padding: 1rem;
+    font-size: 16px;
+}
+
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.odkazy a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+li {
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+}
+
+.odkazy a {
+    text-decoration: none;
+    padding: 1rem;
+    color: #bdc3c7;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 11px;
+}
+
+.portfolio a:hover {
+background-color: #e74c3c;
+}
+
+.facebook a:hover {
+background-color: #3b5998;
+}
+
+.twitter a:hover {
+background-color: #1da1f2;
+}
+
+.facebook {
+    position: relative;
+    right: 20px;
+}
+
+.tlacitka {
+    border-top: 3px solid #3f464d;
+    border-bottom: 3px solid #3f464d;
+}
+
+.portfolio {
+    width: 100%;
+    border-bottom: 3px solid #3f464d;
+}
+
+.facebook,
+.twitter {
+    width: 49%;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.logo {
+border-radius: 50%;
+background-color: #b92e81;
+position: absolute;
+left: 230px;
+top: 190px;
+}
+
+.odkazy {
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
